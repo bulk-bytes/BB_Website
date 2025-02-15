@@ -1,0 +1,103 @@
+/* Services Section */
+.services-container {
+  padding: 110px 20px 0;
+  background-color: #f8f9fa;
+}
+
+.services-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #2b2d42;
+  text-align: center;
+}
+
+.services-grid {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-card {
+  flex:0 0 25%;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  height: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  color: #6c63ff; /* Example color */
+  margin-bottom: 1rem;
+}
+.service-icon img{
+  margin-bottom: 20px;
+}
+
+.service-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.service-description {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+@media (max-width: 1000px) {
+  .services-container{
+    padding: 170px 20px 0;
+  }
+  .services-title {
+    font-size: 1.5rem;
+  }
+  .services-grid{
+    flex-direction: column;
+  }
+  .service-card {
+    padding: 1rem;
+  }
+}
+
+/* Platform Section */
+
+.platform-section{
+  width: 100%;
+}
+.platform-container{
+  width: 100%;
+}
+.platform-container .platform-title{
+  font-size: 36px;
+  line-height: 41px;
+  font-weight: 500;
+}
+/* Web development section*/
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}

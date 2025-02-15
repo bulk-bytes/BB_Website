@@ -1,0 +1,136 @@
+.profile-cards-container {
+    width: 85vw;
+    margin: 100px auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .profile-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    position: relative;
+  }
+  
+  .profile-header {
+    height: 150px;
+    background-color: gray;
+    padding: 20px;
+  }
+  .profile-card:hover{
+    box-shadow: 10px 10px 10px #0adafa59;
+  }
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #1ADEF7;
+    z-index: 1;
+    background-size: cover; /* Keep 'cover' to ensure it fills the circle */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+  }
+  
+  .profile-body {
+    margin-top: 40px;
+    padding: 20px;
+  }
+  
+  .profile-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin: 5px 0;
+  }
+  .profile-card .profile-body .role{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile-title {
+    font-size: 17px;
+    color: #777;
+    font-weight: 500;
+  }
+  .profile-card .profile-body .role .profile-title2{
+    font-size: 12px;
+    color: #777;
+  }
+  .profile-tech {
+    font-size: 13px;
+    color: #777;
+  }
+  
+  .profile-social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-link img {
+width: 18px;
+  }
+  
+  .social-link:hover {
+    color: #00aeff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .profile-header {
+      height: 100px;
+    }
+  
+    .profile-image {
+      width: 120px;
+      height: 120px;
+      top: 30px;
+    }
+  
+    .profile-name {
+      font-size: 18px;
+    }
+  
+    .profile-title {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .profile-header {
+      height: 80px;
+    }
+  
+    .profile-image {
+      width: 100px;
+      height: 100px;
+      top: 20px;
+    }
+  
+    .profile-name {
+      font-size: 16px;
+    }
+  
+    .profile-title {
+      font-size: 10px;
+    }
+  
+    .social-link {
+      font-size: 14px;
+    }
+  }
+  
