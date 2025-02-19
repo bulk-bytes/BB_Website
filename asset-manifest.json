@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/BB_Website/static/css/main.3f59d98d.css",
+    "main.js": "/BB_Website/static/js/main.f3f09684.js",
+    "static/js/453.fdf64be6.chunk.js": "/BB_Website/static/js/453.fdf64be6.chunk.js",
+    "static/media/portraitabout.png": "/BB_Website/static/media/portraitabout.a823a9eec8f068072eaa.png",
+    "index.html": "/BB_Website/index.html",
+    "main.3f59d98d.css.map": "/BB_Website/static/css/main.3f59d98d.css.map",
+    "main.f3f09684.js.map": "/BB_Website/static/js/main.f3f09684.js.map",
+    "453.fdf64be6.chunk.js.map": "/BB_Website/static/js/453.fdf64be6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f59d98d.css",
+    "static/js/main.f3f09684.js"
+  ]
+}
